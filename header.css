@@ -22,7 +22,8 @@ html,body{
     top: 0;
     left: 0;
     z-index: 50;
-    box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.161);}
+    box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.161);
+}
 .header::before{
     content: '';
     position: absolute;
@@ -30,6 +31,9 @@ html,body{
     left: 0;
     width: 100%;
     height: 100%;
+}
+.bio{
+    color: var(--grass-color);
 }
 .header-menu{
     display: flex;
@@ -132,10 +136,12 @@ html,body{
         top: -100%;
         left: 0;
         width: 100%;
-        height: 300px;
+        height: 6rem;
         z-index: 3;
         padding: 100px 20px 30px 20px;
         transition: all 0.3s ease 0s;
+        box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.161);
+
     }
     .header-menu.active{
         top: 0;
@@ -149,6 +155,7 @@ html,body{
     }
     .settings{
         display: block;
+        margin-right: 38px;
     }
     .language{
         display: flex;
