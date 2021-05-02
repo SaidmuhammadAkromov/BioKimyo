@@ -13,7 +13,7 @@
     display: flex;
 }
 .category{
-    width: 410px;
+    width: 26rem;
     height: 700px;
     margin-right: 30px;
 }
@@ -25,4 +25,250 @@
     display: flex;
     align-items: center;
     justify-content: center;
+    margin-bottom: 30px;
+}
+.card {
+    width: 100%;
+    height: 443px;
+    box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.161);
+}
+
+.card-image-block{
+    width: 100%;
+    height: 250px;
+    background-color: silver;
+    position: relative;
+}
+.card-category-button{
+    position: absolute;
+    right: 30px;
+    bottom: 30px;
+    display: flex;
+    background-color: white;
+    width: 97px;
+    height: 33px;
+    align-items: center;
+    justify-content: center;
+    color: var(--primary-color);
+    cursor: pointer;
+}
+.card-content h4{
+    margin-top: 20px;
+    margin-bottom: 7px;
+}
+.card-content {
+    margin: 0 30px;
+}
+.card-content p {
+    margin-bottom: 15px;
+    font-size: 14px;
+}
+.card-content span {
+    font-size: 11px;
+}
+
+@media (max-width: 1024px) {
+    .category {
+        width: 18rem;
+    }
+    .card-content h4 {
+        margin-top: 10px;
+    }
+    .card-content p {
+        margin-bottom: 8px;
+    }
+    .card-content{
+        margin: 0 10px;
+    }
+    #biologiya-block .category-header svg {
+        width: 160px;
+    }
+    #biologiya-block .category-header {
+        height: var(--height-on-laptop-card-header);
+    }
+    #geografiya-block .category-header svg {
+        width: 170px;
+    }
+    #geografiya-block .category-header {
+        height: var(--height-on-laptop-card-header);
+    }
+    #kimyo-block .category-header {
+        height: var(--height-on-laptop-card-header);
+    }
+    #kimyo-block .category-header svg {
+        width: 130px;
+    }
+    .card-category-button {
+        height: 30px;
+        width: 70px;
+        font-size: 13px;
+    }
+
+    @media (max-width: 1001px) {
+        .category {
+            margin-right: 20px;
+        }
+    }
+    @media (max-width: 970px) {
+        .card-content p { 
+            font-size: 14px;
+        }
+        .card-image-block {
+            height: 220px;
+        }
+    }
+    @media (max-width: 870px) {
+        #biologiya-block .category-header svg {
+            width: 140px;
+        }
+        #biologiya-block .category-header {
+            height: var(--height-on-tablet-card-header);
+        }
+        #geografiya-block .category-header svg {
+            width: 150px;
+        }
+        #geografiya-block .category-header {
+            height: var(--height-on-tablet-card-header);
+        }
+        #kimyo-block .category-header {
+            height: var(--height-on-tablet-card-header);
+        }
+        #kimyo-block .category-header svg {
+            width: 110px;
+        }
+    }
+    @media (max-width: 769px) {
+        .categories{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+        .category {
+            width: 70%;
+        }
+        .category-header {
+            height: 200px !important;
+        }
+        #biologiya-block .category-header svg {
+            width: 180px;
+        }
+        #geografiya-block .category-header svg {
+            width: 190px;
+        }
+        #kimyo-block .category-header svg {
+            width: 150px;
+        }
+        .card-content{
+            margin: 0 30px;
+        }
+        .card-content h4 {
+            font-size: 20px;
+            margin: 10px 0;
+        }
+        .card-content p {
+            font-size: 17px;
+            margin: 10px 0;
+        }
+        .card-content span {
+            font-size: 15px;
+            margin-top: 20px;
+        }
+    }
+    @media (max-width: 541px) {
+        .category {
+            width: 100%;
+        }
+        .card-content{
+            margin: 0 20px;
+        }
+        .card-content h4 {
+            font-size: 20px;
+            margin: 10px 0;
+        }
+        .card-content p {
+            font-size: 17px;
+            margin: 15px 0;
+        }
+        .card-content span {
+            font-size: 12px;
+        }
+    }
+    @media (max-width: 635px) {
+        .category {
+            width: 100%;
+        }
+        .card-content{
+            margin: 0 20px;
+        }
+        .card-content h4 {
+            font-size: 20px;
+            margin: 15px 0;
+        }
+        .card-content p {
+            font-size: 17px;
+            margin: 20px 0;
+        }
+        .card-content span {
+            font-size: 15px;
+        }
+    }
+
+    @media (max-width: 451px) {
+        .category {
+            width: 100%;
+        }
+        .card-content{
+            margin: 0 20px;
+        }
+        .card-content h4 {
+            font-size: 18px;
+            margin: 10px 0;
+        }
+        .card-content p {
+            font-size: 15px;
+            margin: 10px 0;
+        }
+        .card-content span {
+            font-size: 13px;
+        }
+    }
+    @media (max-width: 451px) {
+        .card-content{
+            margin: 0 15px;
+        }
+        .card-content h4 {
+            font-size: 17px;
+            margin: 10px 0;
+        }
+        .card-content p {
+            font-size: 14px;
+            margin: 10px 0;
+        }
+        .card-content span {
+            font-size: 12px;
+        }
+    }
+    @media (max-width: 321px) {
+        .category-header,
+        .card-image-block {
+            height: 180px ;
+        }
+        .category {
+            width: 100%;
+        }
+        .card-content{
+            margin: 0 20px;
+        }
+        .card-content h4 {
+            font-size: 16px;
+            margin: 10px 0;
+        }
+        .card-content p {
+            font-size: 14px;
+            margin: 10px 0;
+        }
+        .card-content span {
+            font-size: 11px;
+        }
+    }
 }

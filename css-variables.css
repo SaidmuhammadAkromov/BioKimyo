@@ -3,4 +3,6 @@
     --secondary-color: #EBEBEB;
     --grass-color: rgb(113, 230, 97);
     --black-color: black;
+    --height-on-laptop-card-header: 160px; 
+    --height-on-tablet-card-header: 140px
 }
