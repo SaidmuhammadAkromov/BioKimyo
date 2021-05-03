@@ -1,7 +1,6 @@
 .main{
-    width: 100%;
     margin-top: 90px;
-    height: 70%;
+    /* height: 70%; */
 }
 .main-container{
     height: 80%;
@@ -12,6 +11,7 @@
 .categories{
     display: flex;
     width: 100%;
+    justify-content: center;
 }
 .category{
     width: 26rem;
