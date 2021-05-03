@@ -4,9 +4,13 @@
 }
 .main-container{
     height: 80%;
-    margin: 0px auto;
-    padding: 0px 10px;
-    width: 100%;
+    text-align: left;
+    width: 1238px;
+    font-size: 12px;
+    margin-right: auto;
+    margin-left: auto;
+    padding-right: 24px;
+    padding-left: 24px;
 }
 .categories{
     display: flex;
@@ -15,7 +19,10 @@
 }
 .category{
     width: 26rem;
-    margin-right: 30px;
+    /* margin-right: 30px; */
+}
+.category:nth-child(2){
+    margin: 0 30px;
 }
 .category-header{
     width: 100%;
