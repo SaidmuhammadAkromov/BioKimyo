@@ -5,12 +5,13 @@
 }
 .main-container{
     height: 80%;
-    max-width: 1366px;
     margin: 0px 38px;
     padding: 0px 10px;
+    width: 100%;
 }
 .categories{
     display: flex;
+    width: 100%;
 }
 .category{
     width: 26rem;
@@ -29,8 +30,9 @@
 }
 .card {
     width: 100%;
-    height: 443px;
+    /* height: 443px; */
     box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.161);
+    padding-bottom: 20px;
 }
 
 .card-image-block{
@@ -65,6 +67,24 @@
 }
 .card-content span {
     font-size: 11px;
+    margin: 10px 0;
+}
+
+@media (min-width: 2500px) {
+    .categories{
+        justify-content: center;
+    }
+}
+
+@media (min-width: 1600px) {
+    .category-header,
+    .card-image-block {
+        height: 230px;
+    }
+    .category {
+        width: 33rem;
+    }
+
 }
 
 @media (max-width: 1024px) {
@@ -114,7 +134,7 @@
             font-size: 14px;
         }
         .card-image-block {
-            height: 220px;
+            height: 160px;
         }
     }
     @media (max-width: 870px) {
@@ -137,7 +157,7 @@
             width: 110px;
         }
     }
-    @media (max-width: 769px) {
+    @media (max-width: 775px) {
         .categories{
             display: flex;
             flex-direction: column;
@@ -145,9 +165,11 @@
         }
         .category {
             width: 70%;
+            margin-bottom: 50px;
         }
-        .category-header {
-            height: 200px !important;
+        .category-header,
+        .card-image-block {
+            height: 250px !important;
         }
         #biologiya-block .category-header svg {
             width: 180px;
@@ -177,6 +199,7 @@
     @media (max-width: 541px) {
         .category {
             width: 100%;
+            margin-bottom: 80px;
         }
         .card-content{
             margin: 0 20px;
@@ -194,9 +217,6 @@
         }
     }
     @media (max-width: 635px) {
-        .category {
-            width: 100%;
-        }
         .card-content{
             margin: 0 20px;
         }

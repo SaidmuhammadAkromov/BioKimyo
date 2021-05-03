@@ -9,9 +9,9 @@ html,body{
 }
 
 .container{
-    max-width: 1366px;
     margin: 0px 38px;
     padding: 0px 10px;
+    width: 100%;
 }
 .logo-name{
     z-index: 5;
@@ -39,6 +39,7 @@ html,body{
     justify-content: space-between;
     height: 60px;
     align-items: center;
+    width: 95vw;
 }
 .header-list{
     display: flex;
@@ -83,6 +84,13 @@ html,body{
 }
 .number-phone{
     color: var(--primary-color);
+}
+
+
+@media (min-width: 2500px) {
+    .header-body{
+        width: 90vw;
+    }
 }
 @media (max-width: 775px) {
     .header-burger{
