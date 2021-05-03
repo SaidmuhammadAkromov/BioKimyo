@@ -19,7 +19,6 @@ html,body{
 }
 .header{
     position: fixed;
-    max-width: 2556px;
     width: 100%;
     top: 0;
     left: 0;
