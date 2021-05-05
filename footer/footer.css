@@ -1,4 +1,4 @@
-.main-footer{
+.main-footer {
     position: relative;
     bottom: 0%;
     height: 5rem;
@@ -43,39 +43,6 @@
 .web-icons li {
     margin-left: 20px;
 }
-
-@media (max-width: 767px) {
-    .footer-body{
-        display: block;
-    }
-    .main-footer{
-        height: 20rem;
-        width: 100%;
-    }
-    .footer-logo-name{
-        margin: 50px 0;
-    }
-    .horisontal-line{
-        position: relative;
-        left: -48px;
-    }
-    .web-icons{
-        justify-content: space-around;
-    }
-    .web-icons li i{
-        font-size: 2rem;
-    }
-}
-@media (max-width: 470px) {
-    .footer-category li {
-        margin-right: 30px;
-    }
-    .web-icons li i{
-        font-size: 1.5rem;
-    }
-}
-@media (max-width: 350px) {
-    .footer-category li {
-        margin-right: 0 10px;
-    }
+.footer-body hr {
+    display: none;
 }
