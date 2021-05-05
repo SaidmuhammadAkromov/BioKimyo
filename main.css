@@ -122,9 +122,6 @@ article span {
 }
 
 @media (max-width: 1024px) {
-    .category {
-        width: 18rem;
-    }
     .card-content h4 {
         margin-top: 10px;
     }
@@ -151,6 +148,9 @@ article span {
     }
     #kimyo-block .category-header svg {
         width: 130px;
+    }
+    #kimyo-block {
+        margin: 0;
     }
     .card-category-button {
         height: 30px;
@@ -198,12 +198,12 @@ article span {
             align-items: center;
         }
         .category {
-            width: 45%;
+            width: 80%;
             margin-bottom: 50px;
         }
         .category-header,
         .card-image-block {
-            height: 250px !important;
+            height: 500px !important;
         }
         #biologiya-block .category-header svg {
             width: 180px;
@@ -218,16 +218,27 @@ article span {
             margin: 0 30px;
         }
         .card-content h4 {
-            font-size: 20px;
+            font-size: 30px;
             margin: 10px 0;
         }
         .card-content p {
-            font-size: 17px;
+            font-size: 25px;
             margin: 10px 0;
         }
         .card-content span {
-            font-size: 15px;
+            font-size: 20px;
             margin-top: 20px;
+        }
+        .more-articles-container h5 {
+            font-size: 30px;
+        }
+        .more-articles-container article p{ 
+            font-size: 25px;
+        }
+        .more-articles-container article span{ 
+            font-size: 20px;
+            position: absolute;
+            bottom: -10px;    
         }
     }
     @media (max-width: 541px) {
@@ -238,83 +249,14 @@ article span {
             margin: 0 20px;
         }
         .card-content h4 {
-            font-size: 20px;
+            font-size: 30px;
             margin: 10px 0;
         }
         .card-content p {
-            font-size: 17px;
+            font-size: 25px;
             margin: 15px 0;
         }
         .card-content span {
-            font-size: 12px;
-        }
-    }
-    @media (max-width: 635px) {
-        .card-content{
-            margin: 0 20px;
-        }
-        .card-content h4 {
             font-size: 20px;
-            margin: 15px 0;
-        }
-        .card-content p {
-            font-size: 17px;
-            margin: 20px 0;
-        }
-        .card-content span {
-            font-size: 15px;
-        }
-    }
-
-    @media (max-width: 451px) {
-        .card-content{
-            margin: 0 20px;
-        }
-        .card-content h4 {
-            font-size: 18px;
-            margin: 10px 0;
-        }
-        .card-content p {
-            font-size: 15px;
-            margin: 10px 0;
-        }
-        .card-content span {
-            font-size: 13px;
-        }
-    }
-    @media (max-width: 451px) {
-        .card-content{
-            margin: 0 15px;
-        }
-        .card-content h4 {
-            font-size: 17px;
-            margin: 10px 0;
-        }
-        .card-content p {
-            font-size: 14px;
-            margin: 10px 0;
-        }
-        .card-content span {
-            font-size: 12px;
-        }
-    }
-    @media (max-width: 321px) {
-        .category-header,
-        .card-image-block {
-            height: 180px ;
-        }
-        .card-content{
-            margin: 0 20px;
-        }
-        .card-content h4 {
-            font-size: 16px;
-            margin: 10px 0;
-        }
-        .card-content p {
-            font-size: 14px;
-            margin: 10px 0;
-        }
-        .card-content span {
-            font-size: 11px;
         }
     }
