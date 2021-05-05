@@ -17,8 +17,6 @@ html,body{
     margin-left: auto;
     padding-right: 24px;
     padding-left: 24px;
-    display: flex;
-    justify-content: center;
 }
 .logo-name{
     z-index: 5;
@@ -47,7 +45,6 @@ html,body{
     justify-content: space-between;
     height: 60px;
     align-items: center;
-    width: 80%;
 }
 .header-list{
     display: flex;
@@ -193,5 +190,12 @@ html,body{
     }
     .header-link{
         font-size: 1.5rem;
+    }
+    .header-body {
+        width: 80%;
+    }
+    .container {
+        display: flex;
+        justify-content: center;
     }
 }
